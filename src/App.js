@@ -61,7 +61,8 @@ class App extends Component {
         >
  
           <h2>Happy Happy Birthday!!</h2>
-          <p>När du kommer till Sweden ska du, jag och big sis ut och fira med middag och lyx!! <span role="img" aria-label=" Clinking-Glasses"> 🥂</span> <span role="img" aria-label=" dancing-woman"> 💃</span><span role="img" aria-label="party-face">🥳</span></p>
+          <p>När du kommer till Sweden ska du, lill-sis och big sis ut och fira med middag och lyx!! <span role="img" aria-label=" Clinking-Glasses"> 🥂</span> <span role="img" aria-label=" dancing-woman"> 💃</span><span role="img" aria-label="party-face">🥳</span><br>
+          </br>Stort grattis från hela familjen Carlsson, vi saknar dig!! <b>Puss Kram</b></p>
           <iframe title="gif-frame" className="gif" src="https://giphy.com/embed/oA6sXwSYMmeyY" width="480" height="320" frameBorder="0" allowFullScreen></iframe>
           <button className="button" onClick={this.closeModal}>close</button>
         </Modal>
