@@ -54,7 +54,7 @@ h1{
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  background-image: url("./emma.svg");
+  background-image: url("./emma.png");
 }
 
 .button{
