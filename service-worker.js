@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/emmas-birthday-surprise/precache-manifest.6235a9d6405d8536797c95c3d56242c4.js"
+  "/emmas-birthday-surprise/precache-manifest.41971b16a17fe013f00b367ddfcf7307.js"
 );
 
 workbox.clientsClaim();
