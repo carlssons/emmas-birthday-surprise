@@ -2,18 +2,14 @@ import React, { Component } from 'react';
 import './App.css';
 import Modal from 'react-modal';
 
-/*const customStyles = {
+const customStyles = {
   content : {
-    top                   : '50%',
-    left                  : '50%',
-    right                 : 'auto',
-    bottom                : 'auto',
-    marginRight           : '-50%',
-    transform             : 'translate(-50%, -50%)',
-    width: '100vw',
-    height: '100vh'
+    background: "rgb(0, 155, 155)",
+    color: "white",
+    border: "none",
+    borderRadius: "15px"
   }
-};*/
+};
 class App extends Component {
   constructor() {
     super();
@@ -60,10 +56,12 @@ class App extends Component {
           isOpen={this.state.modalIsOpen}
           onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
+          style={customStyles}
           contentLabel="Example Modal"
         >
  
           <h2>Happy Happy Birthday!!</h2>
+          <p>När du kommer till Sweden ska du, jag och big sis ut och fira med middag och lyx!! <span role="img" aria-label=" Clinking-Glasses"> 🥂</span> <span role="img" aria-label=" dancing-woman"> 💃</span><span role="img" aria-label="party-face">🥳</span></p>
           <iframe title="gif-frame" className="gif" src="https://giphy.com/embed/oA6sXwSYMmeyY" width="480" height="320" frameBorder="0" allowFullScreen></iframe>
           <button className="button" onClick={this.closeModal}>close</button>
         </Modal>
